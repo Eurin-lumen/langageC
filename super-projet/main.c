@@ -3,11 +3,10 @@
 
 int main()
 {
-    int age = 0;
-    printf("Quel age avez-vous ? ");
-    scanf("%d", &age);
-    printf("Ah vous avez donc %d ans ! \n\n", age);
-
+    // la division
+    int resultat = 0;
+    resultat = 5 / 2;
+    printf("5 / 2 = %d", resultat);
     return 0;
 }
 
