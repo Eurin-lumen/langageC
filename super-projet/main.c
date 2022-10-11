@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+double main()
 {
     // la division
-    int resultat = 0;
-    resultat = 5 / 2;
-    printf("5 / 2 = %d", resultat);
+    double resultat = 0;
+    resultat = 5.0 / 2.0;
+    printf("5 / 2 = %f", resultat);
     return 0;
 }
 
